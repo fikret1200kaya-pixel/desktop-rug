@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Desktop Rug — a real Turkish carpet on your desktop</title>
+<meta name="description" content="Desktop Rug lays a realistic Turkish carpet on your Windows desktop. Lift it, fold it, and sweep the clutter under the rug.">
+<meta property="og:title" content="Desktop Rug">
+<meta property="og:description" content="A real Turkish carpet on your desktop. Lift it, fold it, sweep the clutter under the rug.">
+<meta property="og:image" content="img/hero.jpg">
+<link rel="icon" href="img/favicon.png">
+<style>
+  :root { --bg: #15172b; --card: #1f2238; --text: #f3e8d6; --muted: #cdb79a; --accent: #c0392b; --gold: #e0b252; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 "Segoe UI", system-ui, -apple-system, sans-serif; }
+  a { color: var(--gold); }
+  .hero { background: radial-gradient(ellipse at 60% 45%, #7a1e22 0%, #15172b 70%); padding: 56px 16px 40px; text-align: center; }
+  .hero img.logo { width: 180px; height: auto; filter: drop-shadow(0 10px 20px #0008); }
+  h1 { font-size: clamp(36px, 7vw, 64px); margin: 12px 0 4px; letter-spacing: -0.5px; }
+  .tag { color: var(--muted); font-size: clamp(17px, 2.6vw, 22px); margin: 0 0 28px; }
+  .btn { display: inline-block; padding: 14px 26px; border-radius: 10px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; margin: 6px; }
+  .btn.alt { background: transparent; border: 1px solid var(--muted); color: var(--text); }
+  main { max-width: 980px; margin: 0 auto; padding: 32px 16px 64px; }
+  .demo { width: 100%; border-radius: 14px; box-shadow: 0 16px 40px #0009; display: block; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 32px 0; }
+  .card { background: var(--card); border-radius: 12px; padding: 18px 20px; }
+  .card h3 { margin: 0 0 6px; font-size: 18px; color: var(--gold); }
+  .card p { margin: 0; color: var(--text); opacity: .9; }
+  .shots { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+  .shots img { width: 100%; border-radius: 10px; display: block; }
+  h2 { margin-top: 48px; }
+  footer { border-top: 1px solid #ffffff1a; padding: 24px 16px; text-align: center; color: var(--muted); font-size: 14px; }
+  .tr { background: var(--card); border-radius: 12px; padding: 18px 20px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <img class="logo" src="img/logo.png" alt="Desktop Rug logo: a red Turkish carpet with a folder tucked under its lifted corner">
+    <h1>Desktop Rug</h1>
+    <p class="tag">A real Turkish carpet on your desktop.<br>Lift it, fold it, and sweep the clutter under the rug.</p>
+    <a class="btn" href="https://apps.microsoft.com/detail/9PFDDRSPRPWJ">Get it from Microsoft Store</a>
+    <a class="btn alt" href="privacy/">Privacy policy</a>
+  </header>
+
+  <main>
+    <img class="demo" src="img/demo.gif" alt="Lifting the rug's corner, sweeping desktop icons underneath and pulling the rug back over them">
+
+    <div class="grid">
+      <div class="card"><h3>Real cloth physics</h3><p>Grab the rug anywhere to lift a corner, fold it over itself or crumple it. Double-click to straighten it.</p></div>
+      <div class="card"><h3>Hide the clutter</h3><p>Fold a corner back, drop your messy icons underneath, pull the rug over them. Your files are never moved or deleted.</p></div>
+      <div class="card"><h3>Centuries-old carpets</h3><p>Five historical Turkish carpets from The Met's open collection, digitally restored — plus our own hand-drawn rug.</p></div>
+      <div class="card"><h3>Stays out of your way</h3><p>Clicks pass through to the desktop everywhere except the rug. No account, no ads, no internet, no data collection.</p></div>
+    </div>
+
+    <h2>Screenshots</h2>
+    <div class="shots">
+      <img src="img/1-desktop.jpg" alt="A carpet lying on a Windows desktop next to icons">
+      <img src="img/3-clean.jpg" alt="The rug covering the icons, leaving a clean desktop">
+      <img src="img/4-cloth.jpg" alt="The rug being lifted and draping like cloth">
+      <img src="img/5-carpets.jpg" alt="A historical Ushak carpet with a folded corner">
+    </div>
+
+    <section class="tr" lang="tr">
+      <h2 style="margin-top:0">Türkçe</h2>
+      <p>Desktop Rug, Windows masaüstünüze gerçek bir Türk halısı serer. Halı kumaş gibi davranır: köşesini kaldırın, dağınık ikonları altına sürükleyin, halıyı geri çekin — artık görünmüyorlar. Dosyalarınız asla taşınmaz ya da silinmez. Yüzyıllık beş Türk halısı ve kendi çizdiğimiz klasik halı arasından seçim yapabilirsiniz.</p>
+      <p><a href="https://apps.microsoft.com/detail/9PFDDRSPRPWJ">Microsoft Store'dan edinin</a> · <a href="privacy/">Gizlilik politikası</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 EfkaAjans · Support: <a href="mailto:luiz_figo1200@hotmail.com">luiz_figo1200@hotmail.com</a><br>
+    Carpet photographs: The Metropolitan Museum of Art, Open Access (CC0). Not affiliated with or endorsed by The Met.
+  </footer>
+</body>
+</html>
